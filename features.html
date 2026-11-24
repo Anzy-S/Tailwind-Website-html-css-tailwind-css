@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features</title>
+    <!-- Tailwind link -->
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+      <!-- font awesome cdn link -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+       <!-- google fonts link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<style>
+     
+    .section1{
+        background: linear-gradient(to right,rgb(113, 169, 215), rgb(144, 142, 180),rgb(81, 81, 192)); 
+    }
+     .section2{
+        background: linear-gradient(to right,rgb(113, 169, 215), rgb(144, 142, 180),rgb(81, 81, 192)); 
+    }
+</style>
+</head>
+<body>
+     <Header class=" flex justify-between items-center mt-0 mx-0 py-3 bg-blue-100">
+        <!-- <a href=""><i class="fa-brands fa-tailwind-css"></i></a> -->
+        <h1 class="text-3xl ms-10" ><span> <a href=""><i class="fa-brands fa-tailwind-css"></i></a>  Tailwind</span></h1>
+        <div class="navbar flex justify-between items-center gap-10 ">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./features.html">Features</a>
+            <a href="./Advantage.html">Advantages</a>
+        </div>
+        <button class=" me-10 text-lg bg-blue-500 px-5 py-2 text-white rounded-full"><a href="./about.html">Get Started</a></button>
+    </Header>
+    <div class="feature_container">
+        <h1 class="text-center text-4xl font-bold">Key Features of <span>Tailwind CSS</span></h1>
+        <p class="text-center text-xl mt-5 mb-8">Explore the powerful features thet make Tailwind unique.</p>
+        <div class="section1 flex justify-between mx-5 border-3 border-solid rounded-xl border-blue-100 ">
+            <!-- section 1 include 3 boxes  -->
+            <div class="box w-90 h-40 border-1 border-solid  border-blue-100 rounded-2xl mx-20 my-10 bg-blue-100">
+                <h1 class="text-center mt-2 font-bold">Typography</h1>
+                <p class="text-center mt-4 ">Control font size,weight and alignment.</p>
+                <div class="button flex gap-3 mx-10 my-4">
+                    <div  class=" text-sm bg-blue-500 px-3 py-1 text-white rounded-full"   id="button1">text-xl</div>
+                     <div  class=" text-sm bg-blue-500 px-2 py-1 text-white rounded-full"  id="button2">font-bold</div>
+                </div>
+            </div>
+            <!-- section 1 box2 -->
+              <div class="box w-90 h-40 border-1 border-solid  border-blue-100 rounded-2xl mx-20 my-10 bg-blue-100">
+                <h1 class="text-center mt-2 font-bold ">spacing</h1>
+                <p class="text-center mt-4 ">Manage padding and margin easily.</p>
+                <div class="button flex gap-5 mx-8 my-4">
+                    <div class=" text-sm bg-blue-500 px-2 py-1 text-white rounded-full" id="button1">p-4</div>
+                     <div class=" text-sm bg-blue-500 px-2 py-1 text-white rounded-xl" id="button2">m-4</div>
+                </div>
+            </div>
+            <!-- section 1 box3 -->
+              <div class="box w-95 h-40 border-1 border-solid  border-blue-100 rounded-2xl mx-20 my-10 bg-blue-100">
+                <h1 class="text-center mt-2 font-bold ">Colors</h1>
+                <p class="text-center mt-4 ">Use beautiful color palette.</p>
+                <div class="button flex gap-3 mx-5 my-4">
+                    <div class=" text-sm bg-blue-500 px-4 py-1 text-white rounded-full" id="button1">bg-blue-500</div>
+                     <div class=" text-sm bg-blue-500 px-1 py-1 text-white rounded-full" id="button2">text-white</div>
+                </div>
+            </div>
+        </div>
+        <!-- section 2 includes 3 boxes -->
+        <div class="section2 flex justify-between mx-5 border-3 border-solid rounded-xl border-blue-100 my-5 ">
+            <!-- section 2   box1  -->
+            <div class="box w-90 h-40 border-1 border-solid  border-blue-100 rounded-2xl mx-20 my-10 bg-blue-100">
+                <h1 class="text-center mt-2 font-bold">Flexbox</h1>
+                <p class="text-center mt-4 ">Arrange elements with flex utilities.</p>
+                <div class="button flex gap-3 mx-5 my-4">
+                    <div  class=" text-sm bg-blue-500 px-3 py-1 text-white rounded-full"   id="button1">flex</div>
+                     <div  class=" text-sm bg-blue-500 px-2 py-1 text-white rounded-full"  id="button2">justify-center</div>
+                </div>
+            </div>
+            <!-- section 2 box2 -->
+              <div class="box w-90 h-40 border-1 border-solid  border-blue-100 rounded-2xl mx-20 my-10 bg-blue-100">
+                <h1 class="text-center mt-2 font-bold ">Responsive Designs</h1>
+                <p class="text-center mt-4 ">Make your site responsive.</p>
+                <div class="button flex gap-3 mx-8 my-4">
+                    <div class=" text-sm bg-blue-500 px-2 py-1 text-white rounded-full" id="button1">md-text-xl</div>
+                     <div class=" text-sm bg-blue-500 px-2 py-1 text-white rounded-xl" id="button2">lg-flex</div>
+                </div>
+            </div>
+            <!-- section 2 box3 -->
+              <div class="box w-95 h-40 border-1 border-solid  border-blue-100 rounded-2xl mx-20 my-10 bg-blue-100">
+                <h1 class="text-center mt-2 font-bold ">Customization</h1>
+                <p class="text-center mt-4 ">Customize styles as you like.</p>
+                <div class="button flex gap-3  mx-2 my-4">
+                    <div class=" text-sm bg-blue-500   text-white rounded-full" id="button1">hover-bg-blue-700</div>
+                     <div class=" text-sm bg-blue-500 px-3 py-1 text-white rounded-full" id="button2">rounded-lg</div>
+                </div>
+            </div>
+            </div>
+    </div>
+     <footer class="mt-16 bg-slate-900 px-5 py-8 text-center text-sm text-slate-300">
+
+        <p class="text-lg font-bold text-white">
+            Tailwind Learning Hub
+        </p>
+
+        <p class="mt-2">Learn. Build. Design.</p>
+
+        <p class="mt-4 text-xs text-slate-400">
+            A beginner practice project using HTML, Tailwind CSS and custom CSS.
+        </p>
+
+    </footer>
+</body>
+</html>
